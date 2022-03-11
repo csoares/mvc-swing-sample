@@ -138,18 +138,7 @@ include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/
 
 Logging output is displayed. The application should be up and running within a few seconds.
 
-== Test the Application
 
-Now that the web site is running, visit `http://localhost:8080/greeting`, where you should
-see "`Hello, World!`"
-
-Provide a `name` query string parameter by visiting
-`http://localhost:8080/greeting?name=User`. Notice how the message changes from
-"`Hello, World!`" to "`Hello, User!`":
-
-This change demonstrates that the {RequestParam}[`@RequestParam`] arrangement in
-`GreetingController` is working as expected. The `name` parameter has been given a default
-value of `World`, but it can be explicitly overridden through the query string.
 
 == Add a Home Page
 
